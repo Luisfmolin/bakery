@@ -6,14 +6,15 @@
 }
 
 .header{
-    width: 100%;
-    height: 80px;
+    width: 80%;
+    height: 100px;
     display: block;
+    margin-left: 10%;
     background-color: rgb(21, 14, 27);
 }
 .innerh{
     width: 500px;
-    height: 100%;
+    height: 50%;
     display: block;
     margin: 0 auto;
     float: left;
@@ -22,23 +23,147 @@
     height: 100%;
     display: table;
     float: left;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .logo h1{
     color: white;
-    height: 100%;
+    height: 40%;
     display: table-cell;
     vertical-align: middle;
     font-family: 'Courier New';
 }
 .navigation{
     float: right;
-    height: 100%;
+    vertical-align: middle;
+    height: 20%;
+    
 }
 .navigation a{
     color: white;
-    height: 100%;
+    height: 20%;
     display: table;
     vertical-align: middle;
     float: left;
-    padding: 0% 30px;
+    padding: 7.5% 30px;
+}
+.box{
+    width: 80%;
+    height: 400px;
+    display: block;
+    margin-left: 10%;
+    background-color: rgb(21, 14, 27); 
+}
+.intro {
+    float: left;
+    vertical-align: middle;
+    width: 100%;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.message h2{
+    color: aqua;
+    width: 50%;
+    height: 40%;
+    display: table;
+    font-family:'Arial Narrow';
+    vertical-align: middle;
+}
+.m1{
+    float: left;
+    vertical-align: middle;
+    width: 50%;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 30px
+}
+.m1 p{
+    color: white;
+    width: 60%;
+    height: 40%;
+    display: table;
+    justify-content:left;
+    font-family: 'Courier new';
+    vertical-align: middle;
+}
+.m1 ol{
+    color: antiquewhite;
+    display: list-item;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.images img{
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-right: 15%;
+    margin-bottom: 50%;
+    margin-top: 0%;   
+}
+.secondp {
+    width: 80%;
+    height: 300px;
+    display: block;
+    margin-left: 10%;
+    background-color:antiquewhite
+}
+.hed1 {
+    width: 100%;
+    height: 20%;
+    display: table;
+    margin-left: 30%;
+    padding-top: 5%; 
+}
+.head2 h1{
+    color: black;
+    display:table-cell;
+    vertical-align: middle;
+}
+.list {
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;           
+}
+.try {
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 25px;
+    height: 150px;
+    width: 250px;
+    color:blue;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.try1 {
+    color: black;
+    margin-left: 40%;
+    
+}
+.stry {
+    float:none;
+    margin-block-start: 70px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 35px;
+    height: 150px;
+    width: 250px;
+    color:blue;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 10px;
+    padding: 10px;
+    block-size: auto;
+}
+.stry1 {
+    color: black;
+    margin-left: 40%;
+    padding-left: 10px;
 }
